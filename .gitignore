@@ -1,0 +1,12 @@
+# Basics
+*.py[cod]
+*.pyc
+__pycache__
+
+# Vim
+*~
+*.swp
+*.swo
+
+# Coverage
+.coverage
