@@ -52,12 +52,6 @@ ALLOWED_HOSTS = ["*"]
 
 INSTALLED_APPS += ("gunicorn", )
 
-# Static Assests
-# ------------------------
-
-STATICFILES_STORAGE = DEFAULT_FILE_STORAGE
-STATIC_URL = MEDIA_URL
-
 # TEMPLATE CONFIGURATION
 # ------------------------------------------------------------------------------
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#template-dirs
